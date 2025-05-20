@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connect with your MD</title>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#appointment">Appointment</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<style>
+  header {
+    background: #00695c;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<section id="services">
+  <h2>Specialized Services</h2>
+  <ul>
+    <li><strong>Diabetes, Hypertension (High BP) & Thyroid Disorders</strong></li>
+    <li><strong>Infections:</strong> Dengue, Malaria, Typhoid, Corona, Flu, URTI, Throat infections, Fever</li>
+    <li><strong>Respiratory Conditions:</strong> Asthma, COPD, Lung infections, ILD</li>
+    <li><strong>Gastrointestinal Issues:</strong> Gastritis, GERD (Acidity), Stomach Pain, Indigestion, Constipation, Diarrhoea, Food poisoning</li>
+    <li><strong>Urogenital:</strong> Kidney problems, swelling all over body, Proteinuria, Decrease urine output</li>
+    <li><strong>Liver Conditions:</strong> Ascites (Abdominal Distension), Liver Cirrhosis, Fatty Liver, NASH, Alcoholic Liver Disease</li>
+    <li><strong>Heart Diseases:</strong> Arrhythmia, Heart Failure, Heart Attack, MI, DCMP</li>
+    <li><strong>Neurological:</strong> Stroke, Migraine, Headache, Epilepsy (Seizure), Tremors, Dementia</li>
+    <li><strong>Autoimmune Disorders:</strong> SLE, Rheumatoid Arthritis, Takayasu Arteritis, Systemic Sclerosis, Sjögren’s Syndrome</li>
+    <li><strong>Critical Care:</strong> Poisoning, Snake Bites</li>
+  </ul>
+</section>
+
+<section id="appointment">
+  <h2>Online Consultation Appointment</h2>
+  <p>Available <strong>8–9 PM</strong> (Monday to Saturday). Only <strong>2 appointments accepted per day</strong>.<br>
+     You will receive confirmation by WhatsApp.</p>
+  <form action="https://formsubmit.co/naineshs94@gmail.com" method="POST" style="max-width:500px;margin:auto;display:flex;flex-direction:column;gap:10px;">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="Full Name" required>
+
+    <label for="whatsapp">WhatsApp Number:</label>
+    <input type="text" id="whatsapp" name="WhatsApp Number" required>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="Age" required>
+
+    <label for="symptoms">Symptoms / Concern:</label>
+    <textarea id="symptoms" name="Symptoms" required></textarea>
+
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="Preferred Date" required>
+
+    <button type="submit">Submit Appointment Request</button>
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+  </form>
+</section>
+
+<a href="https://wa.me/916354252522" class="whatsapp-float" target="_blank">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp Chat"/>
+</a>
+<style>
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+</style>
+
+</body>
+</html>
